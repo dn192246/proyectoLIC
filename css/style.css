@@ -23,18 +23,20 @@ html,body{
 .header-title{
     color: white;
     width: 100%;
+    font-family: 'Bebas Neue', cursive;
 }
 .div-text-ban{
     width: 100%;
 }
-.second-div img{
-    display: inline-block;
-    margin-bottom: 40px;
-    margin-left: 10px;
-    width: 400px;
-    height: 200px;
+.second-div{
+    margin: auto;
+    margin-top: 0.8%;
+    width: 100%;
 }
-.second-div span{
-    display: inline-block;
-    vertical-align: bottom;
+.header-div{
+    font-family: 'Scheherazade New', serif;
+}
+.card{
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 0;
 }
