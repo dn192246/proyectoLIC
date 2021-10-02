@@ -1,1 +1,40 @@
-/* Hoja de estilos */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.div-base{
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.div-base img{
+    width: 100%;
+    height: 70%;
+}
+.centered {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-title{
+    color: white;
+    width: 100%;
+}
+.div-text-ban{
+    width: 100%;
+}
+.second-div img{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    width: 400px;
+    height: 200px;
+}
+.second-div span{
+    display: inline-block;
+    vertical-align: bottom;
+}

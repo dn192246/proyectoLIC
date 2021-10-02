@@ -1,13 +1,134 @@
-<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>Inicio</title>
 </head>
+
 <body>
-    <h1>Inicio</h1>
-    <h2> Proyecto  Catedra LIC </h2>
+    <!-----------------------------------MENU------------------------------------------------------------>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El Salvador</a>
+                        </li>
+                        <div class="nav-item dropdown">
+                            <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Otros destinos
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Guatemala</a></li>
+                                <li><a class="dropdown-item" href="#">Honduras</a></li>
+                                <li><a class="dropdown-item" href="#">Costa Rica</a></li>
+                                <li><a class="dropdown-item" href="#">Nicaragua</a></li>
+                                <li><a class="dropdown-item" href="#">Panamá</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿Quienes somos?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-----------------------------------MENU------------------------------------------------------------>
+
+    <!--------------------------Banner------------------------------->
+    <div class="container div-base">
+        <img src="img/banner.jpg" />
+        <div class="centered">
+            <div class="col ext-lg-start header-title" style="background-color: rgba(0, 0, 0, 0.45);">
+                <h1>¿Estas buscando un lugar nuevo para ti?</h1>
+                <h3>¡Bienvenido!</h3>
+                <p>
+                <h5>Aquí encontraras los mejores destinos turísticos para ti y para tu familia</h5>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------Banner------------------------------->
+
+    <!------------------------Second div----------------------------->
+    <div class="row justify-content-md-center second-div">
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ut odio error hic omnis molestias. Quia
+            perspiciatis, assumenda et id sint culpa harum, illum nam sed optio voluptatum doloribus sapiente!</span>
+        <img src="img/catedral.jpg" />
+    </div>
+    <!------------------------Second div----------------------------->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Conectate con nosotros en nuestras redes sociales:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#">TravelWorld.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-----------------------------------SCRIPT---------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+    <!-----------------------------------SCRIPT---------------------------------------------->
+
 </body>
+
 </html>
