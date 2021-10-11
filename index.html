@@ -27,9 +27,10 @@
 </head>
 
 <body>
-
-    <div class="d-flex align-items-center justify-content-center splash" id="splash">
-        <img src="img/loading.gif" />
+    <div id="splash-base">
+        <div class="d-flex align-items-center justify-content-center splash" id="splash">
+            <img src="img/loading.gif" />
+        </div>
     </div>
 
     <!-----------------------------------MENU------------------------------------------------------------>
@@ -199,7 +200,7 @@
     <!-----------------------------------SCRIPT---------------------------------------------->
     <script>
         $(document).ready(function () {
-            setTimeout(function(){ $("#splash").hide(); }, 3000);
+            setTimeout(function(){ $("#splash-base").hide(); }, 3000);
         });
     </script>
 </body>
