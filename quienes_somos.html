@@ -1,0 +1,149 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----------------------------------------------CSS----------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Scheherazade+New:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Inicio</title>
+    <!-----------------------------------------------CSS----------------------------------------------------->
+
+    <!-----------------------------------------------JS----------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.10/dist/sweetalert2.all.min.js"></script>
+
+    <!-----------------------------------------------JS----------------------------------------------------->
+
+</head>
+
+<body>
+    <!-----------------------------------MENU------------------------------------------------------------>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fas fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El Salvador</a>
+                        </li>
+                        <div class="nav-item dropdown">
+                            <button class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Otros destinos
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Guatemala</a></li>
+                                <li><a class="dropdown-item" href="#">Honduras</a></li>
+                                <li><a class="dropdown-item" href="#">Costa Rica</a></li>
+                                <li><a class="dropdown-item" href="#">Nicaragua</a></li>
+                                <li><a class="dropdown-item" href="#">Panamá</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿Quienes somos?</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-----------------------------------MENU------------------------------------------------------------>
+
+    <!--CONTENT-->
+    <div class="container-fluid col-8" id="div-form">
+        <div class="row text-center">
+            <h1>¿Quienes somos?</h1>
+            <div class="col-6"><img src="img/img1.png" alt=""></div>
+            <div class="col-6">
+                Somos un equipo de programadores/desarrolladores que nos enfocamos en aprender cada dia cosas nuevas, para brindarle al cliente los mejores
+                servicios y productos. Actualmente seguimos siendo estudiantes de la carrera de ingeniería en sistemas informaticos.
+
+                Ser programadores es una responsabilidad muy grande, ya que debemos ofrecer a nuestros clientes lo mejor de nosotros, y en eso 
+                nos especializamos
+            </div>
+        </div>
+        <div class="row" id="info">
+            <div class="col-md-4"><button id="btn-info" class="btn btn-success">Quiero saber mas...</button></div>
+        </div>
+        <div id="message" hidden="hidden"><a href="contactanos.html">Registrarme</a></div>
+        <div class="row" id="mostrar-info"></div>
+    </div>
+    <!--CONTENT-->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Conectate con nosotros en nuestras redes sociales:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="#">TravelWorld.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-----------------------------------SCRIPT---------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="js/contactanos.js"></script>
+    <!-----------------------------------SCRIPT---------------------------------------------->
+
+</body>
+
+</html>

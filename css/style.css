@@ -63,3 +63,24 @@ html,body{
 .section-carousel img{
     height: 100%;
 }
+#div-form{
+    height: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2%;
+}
+#div-form img{
+    width: 400px;
+    height: 200px;
+}
+
+#div-btn{
+    width: 50%;
+    margin: auto;
+}
+
+#info{
+    margin-top: 5px;
+
+}
