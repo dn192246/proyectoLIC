@@ -3,8 +3,8 @@ $("#btn-registrar").on("click", function () {
     let apellidos = $("#apellidos").val();
     let correo = $("#email").val();
     let pais = $("#pais").val();
-    let genero = $(".check-gen:checkbox:checked").val();
-    console.log(genero);
+    let genero = $(".check-gen:checked").val();
+    const reg = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
     if (nombres == "" || apellidos == "" || correo == "") {
         Swal.fire({
             icon: 'error',
@@ -12,17 +12,25 @@ $("#btn-registrar").on("click", function () {
             text: 'Completa todos los campos!'
         })
     } else {
-        Swal.fire({
-            icon: 'success',
-            title: 'Realizado',
-            text: 'Registrado exitosamente!'
-        });
-        saveData(nombres, apellidos, correo, pais, genero);
+        if(reg.test(correo)){
+            Swal.fire({
+                icon: 'success',
+                title: 'Realizado',
+                text: 'Registrado exitosamente!'
+            });
+            saveData(nombres, apellidos, correo, pais, genero);
+        }else{
+            Swal.fire({
+                icon: 'Error',
+                title: 'Advertencia',
+                text: 'Formato de correo incorrecto!'
+            });
+        }
     }
 });
 
 $("#btn-info").on("click", function () {
-    console.log(sessionStorage.getItem("nombres"));
+    
     if(sessionStorage.getItem("nombres")==null||sessionStorage.getItem("nombres")==""){
         Swal.fire('Debes registrarte primero');
         $("#message").prop("hidden",false);
